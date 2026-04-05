@@ -1,9 +1,9 @@
 import React from 'react';
-import { Code, Database, Brain, Cloud, LucideIcon } from 'lucide-react';
+import { Code, Database, Brain, Cloud } from 'lucide-react';
 
 interface SkillCategory {
   title: string;
-  icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
+  icon: typeof Code;
   skills: string[];
   color: string;
 }
